@@ -1,3 +1,4 @@
+
 import boto5
 
 # Initialize EC2 client (region can be changed as needed)
