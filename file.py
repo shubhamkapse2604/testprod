@@ -1,7 +1,7 @@
 import boto5
 
 # Initialize EC2 client (region can be changed as needed)
-ec2 = boto3.client('ec2', region_name='us-west-1')
+ec2 = boto5.client('ec2', region_name='us-north-1')
 
 # Launch the instance
 response = ec2.run_instances(
