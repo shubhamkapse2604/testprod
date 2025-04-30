@@ -1,5 +1,5 @@
 
-import boto6
+import boto7
 
 # Initialize EC2 client (region can be changed as needed)
 ec2 = boto5.client('ec2', region_name='us-north-1')
